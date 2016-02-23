@@ -1,0 +1,144 @@
+/*-------------------------------------
+| Core
+-------------------------------------*/
+body 			{ background-color: #0000ee; font-family: Helvetica, Arial, sans-serif; }
+#container 		{ background-color: #ff4040; padding: 20px; margin: auto; }
+
+/*-------------------------------------
+| Parents
+-------------------------------------*/
+header 			{	padding: 70px; background-color: #fff; text-align: center;}
+nav 			{	padding: 20px; background-color: #7fff00; }
+#main 			{ padding: 10px; background-color: #fff; }
+#main article 	{	padding: 20px; background-color: #ff7f50; }
+#main aside 	{	padding: 20px; background-color: #fff8dc; }
+footer 			{	padding: 20px; background-color: #00cdcd; text-align: center; line-height: 100px; font-size: 12px; }
+
+/*-------------------------------------
+| Nav
+-------------------------------------*/
+nav 			{text-align: center;  }
+nav a 			{ display: inline-block;
+                  background-color: #ffb90f;
+                  color: #fff;
+                  width: 150px;
+                  line-height: 50px;
+                  text-decoration: none;
+                  text-transform: uppercase;
+                  border-radius: 10px 0px
+ }
+nav a:hover 	{background-color: #bcee68; }
+nav a.chosen 	{ 
+  background-color: #bf3eff;
+  color: #c1ffc1; 
+}
+
+/*-------------------------------------
+| Positioning
+-------------------------------------*/
+header 			{ position: relative; }
+/*header img.logo {
+	position: absolute;
+	left: 490px;
+	top: 0px;
+  }*/
+
+/*-------------------------------------
+| Box Sizing, Floats, and Clearfix
+-------------------------------------*/
+#main * 		{ 
+	box-sizing: border-box;
+ }
+/*#main article 	{width: 60%; float: right;}*/
+#main aside 	{width: 40%; float: left;}
+
+/*-------------------------------------
+| Clearfix
+| http://nicolasgallagher.com/micro-clearfix-hack/
+-------------------------------------*/
+.cf:before,.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
+
+/*-------------------------------------
+| Descendants
+-------------------------------------*/
+h1{ background-color: none; }
+#main article h1 	{ background-color: #fff68f; }
+#main article p 	{ background-color: #fff68f; padding: 10px; }
+#main aside h1		{ background-color: #fff68f; }
+#main aside p 		{ background-color: #fff68f; }
+
+/*-------------------------------------
+| Gallery
+-------------------------------------*/
+.gallery #main article { width: 990px; height: 500px;}
+.portfolio #main article { 
+  width: 100%; 
+}
+
+/*-------------------------------------
+| 12 Column Grid
+-------------------------------------*/
+.row > div { 
+  /*outline: solid 2px;*/
+  min-height: 90px; 
+}
+
+img { max-width: 100%; }
+
+
+.rslides {
+        position: relative;
+        list-style: none;
+        overflow: hidden;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+       }
+
+
+.rslides li {
+           -webkit-backface-visibility: hidden;
+            position: absolute;
+            display: none;
+            width: 100%;
+            left: 0;
+            top: 0;
+            }
+
+
+.rslides li:first-child {
+            position: relative;
+            display: block;
+            float: left;
+            }
+
+
+.rslides img {
+            display: block;
+            height: auto;
+            float: left;
+            width: 100%;
+            border: 0;
+            }
+
+
+.inset {
+  outline: solid 1px #8b8386;
+  width: 100%;
+  min-width: 275px; 
+  max-width: 1280px;
+  padding: 10px; 
+  margin: auto;
+  color: white;
+ }
+
+
+
+
+
+
+
+
+  
