@@ -1,36 +1,36 @@
 /*-------------------------------------
 | Core
 -------------------------------------*/
-body 			{ background-color: #0000ee; font-family: Helvetica, Arial, sans-serif; }
-#container 		{ background-color: #ff4040; padding: 20px; margin: auto; }
+body 			{ background-color: #76eec6; font-family: Helvetica, Arial, sans-serif; }
+#container 		{ background-color: #9bcd9b; padding: 20px; margin: auto; }
 
 /*-------------------------------------
 | Parents
 -------------------------------------*/
-header 			{	padding: 70px; background-color: #fff; text-align: center;}
-nav 			{	padding: 20px; background-color: #7fff00; }
-#main 			{ padding: 10px; background-color: #fff; }
-#main article 	{	padding: 20px; background-color: #ff7f50; }
-#main aside 	{	padding: 20px; background-color: #fff8dc; }
-footer 			{	padding: 20px; background-color: #00cdcd; text-align: center; line-height: 100px; font-size: 12px; }
+header 			{	padding: 70px; background-color: #00ced1; text-align: center;}
+nav 			{	padding: 20px; background-color: #ffc125; }
+#main 			{ padding: 10px; background-color: #bfefff; }
+#main article 	{	padding: 20px; background-color: #ffa07a; }
+#main aside 	{	padding: 20px; background-color: #ff00ff; }
+footer 			{	padding: 20px; background-color: #eecfa1; text-align: center; line-height: 100px; font-size: 12px; }
 
 /*-------------------------------------
 | Nav
 -------------------------------------*/
 nav 			{text-align: center;  }
 nav a 			{ display: inline-block;
-                  background-color: #ffb90f;
-                  color: #fff;
+                  background-color: #ff4500;
+                  color: #ffefd5;
                   width: 150px;
                   line-height: 50px;
                   text-decoration: none;
                   text-transform: uppercase;
                   border-radius: 10px 0px
  }
-nav a:hover 	{background-color: #bcee68; }
+nav a:hover 	{background-color: #b0e0e6; }
 nav a.chosen 	{ 
-  background-color: #bf3eff;
-  color: #c1ffc1; 
+  background-color: #ff0000;
+  color: #ee8262; 
 }
 
 /*-------------------------------------
@@ -64,10 +64,10 @@ header 			{ position: relative; }
 | Descendants
 -------------------------------------*/
 h1{ background-color: none; }
-#main article h1 	{ background-color: #fff68f; }
-#main article p 	{ background-color: #fff68f; padding: 10px; }
-#main aside h1		{ background-color: #fff68f; }
-#main aside p 		{ background-color: #fff68f; }
+#main article h1 	{ background-color: #4eee94; }
+#main article p 	{ background-color: #4eee94; padding: 10px; }
+#main aside h1		{ background-color: #4eee94; }
+#main aside p 		{ background-color: #4eee94; }
 
 /*-------------------------------------
 | Gallery
@@ -125,7 +125,7 @@ img { max-width: 100%; }
 
 
 .inset {
-  outline: solid 1px #8b8386;
+  outline: solid 1px #40e0d0;
   width: 100%;
   min-width: 275px; 
   max-width: 1280px;
