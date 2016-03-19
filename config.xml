@@ -1,28 +1,22 @@
-	<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.DanielAviles.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
 
-	<!-- For ID, just put your name in between the com and example -->
+    <!-- versionCode is optional and Android only -->
 
-	 <widget xmlns = "http://www.w3.org/ns/widgets"
-		xmlns:gap = "http://phonegap.com/ns/1.0"
-		id = "com.DanielAviles.example"
-		versionCode = "10"
-		version = "1.0.0" >
+    <name>Interactive3</name>
 
-<!-- versionCode is optional and Android only -->
+    <description>
+        A mobile in progress in being great.
+    </description>
 
-<!-- Name of your app -->
-	 <name>Interactive3</name>
+    <author href="https://build.phonegap.com" email="El_Dee2014@live.com">
+        Daniel Aviles
+    </author>
 
-<!-- Description of your App -->
-	 <description>
-	 A mobile in progress in being great.
-	 </description>
+    <plugin name="nl.x-services.plugins.socialsharing" spec="4.3.8" source="pgb" />
 
- <!-- Author of the app ie, you) -->
-	 <author href="https://build.phonegap.com" email="El_Dee2014@live.com">
-	 Daniel Aviles
-	 </author>
-
-<!-- Your plugin code -->
-	 	<plugin name="nl.x-services.plugins.socialsharing" spec="4.3.8" source="pgb" />
-	</widget>
+</widget>
