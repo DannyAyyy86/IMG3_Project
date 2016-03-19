@@ -8,21 +8,21 @@
 		versionCode = "10"
 		version = "1.0.0" >
 
-	<!-- versionCode is optional and Android only -->
+<!-- versionCode is optional and Android only -->
 
-		<!-- Name of your app -->
-			 <name>Interactive3</name>
+<!-- Name of your app -->
+	 <name>Interactive3</name>
 
-		<!-- Description of your App -->
-			 <description>
-			 A mobile in progress in being great.
-			 </description>
+<!-- Description of your App -->
+	 <description>
+	 A mobile in progress in being great.
+	 </description>
 
-		 <!-- Author of the app ie, you) -->
-			 <author href="https://build.phonegap.com" email="El_Dee2014@live.com">
-			 Daniel Aviles
-			 </author>
+ <!-- Author of the app ie, you) -->
+	 <author href="https://build.phonegap.com" email="El_Dee2014@live.com">
+	 Daniel Aviles
+	 </author>
 
-		<!-- Your plugin code -->
-			 <gap:plugin name="<plugin name="cordova-plugin-device" spec="1.0.1" source="pgb" />" spec="2.2.1" />" />
-			</widget>
+<!-- Your plugin code -->
+	 	<plugin name="nl.x-services.plugins.socialsharing" spec="4.3.8" source="pgb" />
+	</widget>
